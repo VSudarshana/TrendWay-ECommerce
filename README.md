@@ -14,11 +14,13 @@ Shop the latest trends effortlessly at Trendway's fashion site I designed with H
 🌟 Explore the possibilities, shop with ease, and embrace the chic vibes at Trendway – your go-to destination for the latest in fashion! 👗👠
 
 # Home Page
-![image](https://github.com/VSudarshana/TrendWay-ECommerce/assets/140592185/b0f6142f-3673-4d1b-8456-139be13afe29)
+![image](https://github.com/VSudarshana/TrendWay-ECommerce/assets/140592185/417fd253-792f-4f81-9ffd-773a96851210)
+
 
 
 # Collections page
-![image](https://github.com/VSudarshana/TrendWay-ECommerce/assets/140592185/2988d874-a185-4ef0-b3d7-962301be39ca)
+![image](https://github.com/VSudarshana/TrendWay-ECommerce/assets/140592185/4185ef6f-d0ab-430b-99c3-e1368f196b8e)
+
 
 
 
