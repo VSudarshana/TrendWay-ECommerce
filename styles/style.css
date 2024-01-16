@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #242424;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.navbar-links {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: #818181;
+
+}
+
+.navbar-link a:hover {
+    color: #ffffff;
+}
+
+.navbar-menu-toggle {
+    display: none;
+}
+
+/* Side Navbar */
+.side-navbar {
+    background-color: rgba(37, 37, 37, 0.9);
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    text-align: center;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: #ffffff;
+    transition: .7s;
+}
+
+.side-navbar-link {
+    margin-bottom: 30px;
+}
+
+.side-navbar-link a {
+    text-decoration: none;
+    color: #818181;
+}
+
+.side-navbar-link a:hover {
+    color: #f1f1f1;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.header-button {
+    padding: 10px 20px;
+    background-color: #303030;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.header-image {
+    border-radius: 10px;
+}
+
+/* Services */
+.service {
+    padding: 20px;
+}
+
+.service-container-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.service-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-container-2 div {
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* New Arrivals */
+.new-arrival {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.new-arrival-container {
+    padding: 20px 0;
+    position: relative;
+    flex-basis: 25%;
+    text-align: center;
+    color: #967631;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.new-arrival-container img {
+    border-radius: 10px;
+    width: 200px;
+    height: 280px;
+}
+
+.new-arrival-container:hover {
+    background-color: #e4e4e4;
+    transform: scale(0.9);
+}
+
+.new-arrival-container button {
+    padding: 12px;
+    color: #4e4e4e;
+    position: absolute;
+    bottom: 35%;
+    left: 33%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.original-price {
+    font-size: large;
+    color: #000000;
+    display: inline;
+}
+
+.price-offer1 {
+    text-decoration: line-through;
+    color: #967631;
+    display: inline;
+}
+
+.price-offer2 {
+    display: inline;
+}
+
+/* News Letter */
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news input {
+    padding: 10px;
+    width: 50vw;
+    margin: 15px 0;
+    border: solid black 3px;
+    border-radius: 5px;
+}
+
+.news button {
+    color: #ffffff;
+    padding: 10px;
+    background-color: #303030;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #242424;
+    color: #979797;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-heading {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-contact {
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.footer-i-con i {
+    margin-right: 8px;
+    font-size: larger;
+    color: #ffffff;
+}
+
+/* Product Search */
+.product-search {
+    width: 80%;
+    border: 3px solid #3d3d3d;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+}
+
+.product-search input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.product-search input:focus {
+    outline: none;
+}
+
+/* Media Query */
+@media screen and (max-width: 700px) {
+    .navbar-menu-toggle {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .header-image {
+        display: none;
+    }
+
+    .service-container-1 {
+        display: none;
+    }
+
+    .service-container-2 {
+        flex-direction: column;
+    }
+
+    .new-arrival-container button {
+        position: absolute;
+        bottom: 35%;
+        left: 20%;
+    }
+
+
+}

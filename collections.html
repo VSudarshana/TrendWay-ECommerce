@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collections - Trendway</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1>Trendway</h1>
+
+      <div class="navbar-links">
+        <p class="navbar-link"><a href="index.html">Home</a></p>
+        <p class="navbar-link">
+          <a href="collections.html">Collections</a>
+        </p>
+        <p class="navbar-link">
+          <a href="contact.html">Contact Us</a>
+        </p>
+      </div>
+
+      <div class="navbar-menu-toggle" onclick="ShowNavBar()">
+        <i class="fa-solid fa-sliders"></i>
+      </div>
+    </nav>
+
+    <!-- Side Navbar -->
+    <div class="side-navbar">
+      <p style="text-align: right" onclick="CloseNavBar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+
+      <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link">
+          <a href="collections.html">Collections</a>
+        </p>
+        <p class="side-navbar-link">
+          <a href="contact.html">Contact Us</a>
+        </p>
+      </div>
+    </div>
+
+    <h1 style="padding: 20px; text-align: center">Our Collections</h1>
+
+    <!-- Product Search -->
+    <form class="product-search">
+      <input type="text" placeholder="Search" id="search" />
+    </form>
+
+    <div class="new-arrival" id="new-arrival">
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c1.png"
+          alt="Men Regular Fit Printed Casual Shirt"
+        />
+        <p>
+          Men Regular Fit <br />
+          Printed Casual Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹269</p>
+          <p class="price-offer1">₹1,599</p>
+          <p class="price-offer2">(83% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c2.png"
+          alt="Men Regular Fit Casual Shirt"
+        />
+        <p>
+          Men Regular <br />
+          Fit Casual Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹319</p>
+          <p class="price-offer1">₹999</p>
+          <p class="price-offer2">(68% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c3.png"
+          alt="Men Regular Fit Printed Casual Shirt"
+        />
+        <p>
+          Men Regular Fit <br />
+          Printed Casual Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹319</p>
+          <p class="price-offer1">₹999</p>
+          <p class="price-offer2">(68% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c4.png"
+          alt="Men Slim Fit Striped Formal Shirt"
+        />
+        <p>
+          Men Slim Fit <br />
+          Striped Formal Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹339</p>
+          <p class="price-offer1">₹1,699</p>
+          <p class="price-offer2">(80% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c5.png"
+          alt="Men Regular Fit Striped Casual Shirt"
+        />
+        <p>
+          Men Regular Fit <br />
+          Striped Casual Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹279</p>
+          <p class="price-offer1">₹999</p>
+          <p class="price-offer2">(72% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c6.png"
+          alt="Men Slim Fit Checkered Casual Shirt"
+        />
+        <p>
+          Men Slim Fit <br />
+          Checkered Casual Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹459</p>
+          <p class="price-offer1">₹1,499</p>
+          <p class="price-offer2">(69% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c7.png"
+          alt="Women Striped Mandarin Collar Casual Shirt"
+        />
+        <p>
+          Women Striped Mandarin <br />
+          Collar Casual Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹299</p>
+          <p class="price-offer1">₹1,563</p>
+          <p class="price-offer2">(80% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c8.png"
+          alt="Women Checkered Spread Collar Casual Shirt"
+        />
+        <p>
+          Women Checkered Spread <br />
+          Collar Casual Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹341</p>
+          <p class="price-offer1">₹1,799</p>
+          <p class="price-offer2">(81% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c9.png"
+          alt="Women Printed Lapel Collar Casual Shirt"
+        />
+        <p>
+          Women Printed Lapel <br />
+          Collar Casual Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹289</p>
+          <p class="price-offer1">₹1,999</p>
+          <p class="price-offer2">(85% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c10.png"
+          alt="Women Solid Spread Collar Party Shirt"
+        />
+        <p>
+          Women Solid Spread <br />
+          Collar Party Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹314</p>
+          <p class="price-offer1">₹999</p>
+          <p class="price-offer2">(68% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c11.png"
+          alt="Men Printed Spread Collar Casual Shirt"
+        />
+        <p>
+          Men Printed Spread <br />
+          Collar Casual Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹839</p>
+          <p class="price-offer1">₹2,199</p>
+          <p class="price-offer2">(62% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c12.png"
+          alt="Men Printed Spread Collar Casual Shirt"
+        />
+        <p>
+          Men Printed Spread <br />
+          Collar Casual Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹889</p>
+          <p class="price-offer1">₹1,699</p>
+          <p class="price-offer2">(48% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c13.png"
+          alt="Men Printed Hooded Neck Cotton Blend Black, Light Green T-Shirt"
+        />
+        <p>
+          Men Printed Hooded Neck <br />
+          Cotton Blend Black T-Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹365</p>
+          <p class="price-offer1">₹999</p>
+          <p class="price-offer2">(63% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img src="assets/images/Collections/c14.png" alt="Black T-Shirt" />
+        <p>
+          Men Typography Hooded Neck <br />
+          Cotton Black T-Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹249</p>
+          <p class="price-offer1">₹1,599</p>
+          <p class="price-offer2">(84% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c15.png"
+          alt="Men Typography Round Neck Pure Cotton Black, Yellow T-Shirt"
+        />
+        <p>
+          Men Typography Round Neck <br />
+          Black, Yellow T-Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹319</p>
+          <p class="price-offer1">₹1,599</p>
+          <p class="price-offer2">(80% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c16.png"
+          alt="Men Full Sleeve Color Block Hooded Sweatshirt"
+        />
+        <p>
+          Men Full Sleeve <br />
+          Block Hooded Sweatshirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹435</p>
+          <p class="price-offer1">₹1,689</p>
+          <p class="price-offer2">(74% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c17.png"
+          alt="Men Colorblock Round Neck Cotton Blend Light Blue T-Shirt"
+        />
+        <p>
+          Men Colorblock Round Neck <br />
+          Light Blue T-Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹599</p>
+          <p class="price-offer1">₹1,499</p>
+          <p class="price-offer2">(60% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c18.png"
+          alt="Men Striped Polo Neck Pure Cotton White T-Shirt"
+        />
+        <p>
+          Men Striped Polo Neck <br />
+          Pure Cotton White T-Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹919</p>
+          <p class="price-offer1">₹2,299</p>
+          <p class="price-offer2">(60% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c19.png"
+          alt="Men Typography Round Neck Poly Cotton Green, White T-Shirt"
+        />
+        <p>
+          Men Typography Round Neck <br />
+          Poly Cotton Green, White T-Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹479</p>
+          <p class="price-offer1">₹1,199</p>
+          <p class="price-offer2">(60% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c20.png"
+          alt="Men Printed Round Neck Cotton Blend Yellow T-Shirt"
+        />
+        <p>
+          Men Printed Round Neck <br />
+          Cotton Blend Yellow T-Shirt
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹519</p>
+          <p class="price-offer1">₹1,299</p>
+          <p class="price-offer2">(60% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c21.png"
+          alt="Men Slim Mid Rise Blue Jeans"
+        />
+        <p>Men Slim Mid Rise Blue Jeans</p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹661</p>
+          <p class="price-offer1">₹1,699</p>
+          <p class="price-offer2">(58% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c22.png"
+          alt="Men Slim Mid Rise Grey Jeans"
+        />
+        <p>Men Slim Mid Rise Grey Jeans</p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹721</p>
+          <p class="price-offer1">₹1,799</p>
+          <p class="price-offer2">(59% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/Collections/c23.png"
+          alt="Men Solid Olive Track Pants"
+        />
+        <p>Men Solid Olive Track Pants</p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹380</p>
+          <p class="price-offer1">₹1,199</p>
+          <p class="price-offer2">(69% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img src="assets/images/Collections/c24.png" alt="Men Cargos" />
+        <p>Men Cargos</p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹474</p>
+          <p class="price-offer1">₹1,799</p>
+          <p class="price-offer2">(73% OFF)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <h2 class="footer-heading">Trendway</h2>
+      <p>
+        At Trendway, customer satisfaction is our top priority. Shop with
+        confidence and enjoy a seamless shopping experience.
+      </p>
+      <p>
+        Stay connected with us on social media for the latest updates and
+        promotions:
+      </p>
+      <!-- Add social media icons and links here -->
+      <div class="footer-i-con">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+      <p class="footer-contact">
+        For any inquiries, please contact our customer support at
+        support@trendway.com or call us at (123) 456-7890.
+      </p>
+      <p style="color: #ffffff">&copy; 2024 Trendway. All rights reserved.</p>
+    </div>
+    <script src="scripts/collections.js"></script>
+  </body>
+</html>

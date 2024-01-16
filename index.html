@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trendway</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1>Trendway</h1>
+
+      <div class="navbar-links">
+        <p class="navbar-link"><a href="index.html">Home</a></p>
+        <p class="navbar-link"><a href="collections.html">Collections</a></p>
+        <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+      </div>
+
+      <div class="navbar-menu-toggle" onclick="ShowNavBar()">
+        <i class="fa-solid fa-sliders"></i>
+      </div>
+    </nav>
+
+    <!-- Side Navbar -->
+    <div class="side-navbar">
+      <p style="text-align: right" onclick="CloseNavBar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+
+      <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact Us</a></p>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <div>
+        <h1>Level up your Style</h1>
+        <h4>With our stunning collections</h4>
+        <button class="header-button">Shop Now</button>
+      </div>
+
+      <div>
+        <img
+          class="header-image"
+          src="assets/images/header.jpg"
+          alt="Header image"
+          width="400px"
+        />
+      </div>
+    </div>
+
+    <!-- Service -->
+    <div class="service">
+      <div class="service-container-1">
+        <div>
+          <h3>We Provide The Best Customer Experience</h3>
+        </div>
+        <div>
+          <h3>We ensure that our customer have the best shopping experience</h3>
+        </div>
+      </div>
+
+      <div class="service-container-2">
+        <div>
+          <i class="fa-regular fa-face-smile"></i>
+          <h4>Satisfaction Guarantee</h4>
+          <p>
+            We take pride in offering an unbeatable Satisfaction Guarantee to
+            ensure that your shopping experience with us is nothing short of
+            extraordinary. Our curated collection of clothing reflects our
+            commitment to providing you with the highest quality fashion pieces.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-bolt"></i>
+          <h4>New Arrival Everyday</h4>
+          <p>
+            Discover the latest trends at our Fashion Shop, where excitement
+            meets style with New Arrivals Every Day! Stay ahead of the fashion
+            curve as we bring you a fresh selection of clothing that combines
+            on-point designs with exceptional quality.
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-truck-fast"></i>
+          <h4>Fast and Free shipping</h4>
+          <p>
+            Experience the convenience of Fast and Free Shipping at our Fashion
+            Shop, where we prioritize delivering your stylish selections
+            straight to your doorstep without any additional cost.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Arrivals -->
+    <h2 style="padding: 20px; text-align: center">New Arrivals</h2>
+    <div class="new-arrival">
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/New-Arrivals/img1.jpg"
+          alt="BEIGE FLORAL PRINT COTTON SHIRT"
+        />
+        <p>
+          BEIGE FLORAL PRINT <br />
+          COTTON SHIRT
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹1,780</p>
+          <p class="price-offer1">₹2,499</p>
+          <p class="price-offer2">(63% OFF)</p>
+        </div>
+      </div>
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/New-Arrivals/img2.jpg"
+          alt="BLUE MID RISE LOOSE FIT JEANS"
+        />
+        <p>BLUE MID RISE <br /> LOOSE FIT JEANS</p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹2,499</p>
+          <p class="price-offer1">₹4,999</p>
+          <p class="price-offer2">(51% OFF)</p>
+        </div>
+      </div>
+
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/New-Arrivals/img3.jpg"
+          alt="BLACK HIGH RISE RIPPED STRAIGHT JEANS"
+        />
+        <p>BLACK RISE RIPPED <br/> STRAIGHT JEANS</p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹1,664</p>
+          <p class="price-offer1">₹3,699</p>
+          <p class="price-offer2">(55% OFF)</p>
+        </div>
+      </div>
+
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/New-Arrivals/img4.jpg"
+          alt="BLACK FAUX LEATHER BIKER JACKET"
+        />
+        <p>
+          BLACK FAUX LEATHER <br />
+          BIKER JACKET
+        </p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹3,749</p>
+          <p class="price-offer1">₹4,999</p>
+          <p class="price-offer2">(25% OFF)</p>
+        </div>
+      </div>
+
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/New-Arrivals/img5.jpg"
+          alt="RED SUEDE SHACKET"
+        />
+        <p>RED SUEDE SHACKET</p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹1,799</p>
+          <p class="price-offer1">₹2,999</p>
+          <p class="price-offer2">(40% OFF)</p>
+        </div>
+      </div>
+
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/New-Arrivals/img6.jpg"
+          alt="Men Solid Single Breasted Festive Blaze"
+        />
+        <p>Men Solid Single <br /> Breasted Festive Blaze</p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹1,519</p>
+          <p class="price-offer1">₹5,999</p>
+          <p class="price-offer2">(74% OFF)</p>
+        </div>
+      </div>
+
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/New-Arrivals/img7.jpg"
+          alt="Men Printed Round Neck Cotton Blend Orange T-Shirt"
+        />
+        <p>Men Printed Round Neck <br /> Cotton Blend Orange T-Shirt</p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹325</p>
+          <p class="price-offer1">₹1,099</p>
+          <p class="price-offer2">(70% OFF)</p>
+        </div>
+      </div>
+
+      <div class="new-arrival-container">
+        <img
+          src="assets/images/New-Arrivals/img8.jpg"
+          alt="Men Washed Jacket"
+        />
+        <p>Men Washed Jacket</p>
+        <button>Shop Now <i class="fa-solid fa-right-from-bracket"></i></button>
+        <div class="price">
+          <p class="original-price">₹499</p>
+          <p class="price-offer1">₹2,499</p>
+          <p class="price-offer2">(80% OFF)</p>
+      </div>
+    </div>
+
+    <!-- News  -->
+    <div class="news">
+      <h2>Join our News Letter</h2>
+      <p>
+        SignUp for our email newsletter to get exclusive discounts and updates</p>
+      <div>
+        <input type="text" />
+      </div>
+      <div>
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <h2 class="footer-heading">Trendway</h2>
+      <p>
+        At Trendway, customer satisfaction is our top priority. Shop with
+        confidence and enjoy a seamless shopping experience.
+      </p>
+      <p>
+        Stay connected with us on social media for the latest updates and
+        promotions:
+      </p>
+      <!-- Add social media icons and links here -->
+      <div class="footer-i-con">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+      <p class="footer-contact">
+        For any inquiries, please contact our customer support at
+        support@trendway.com or call us at (123) 456-7890.
+      </p>
+      <p style="color: #ffffff;">&copy; 2024 Trendway. All rights reserved.</p>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
